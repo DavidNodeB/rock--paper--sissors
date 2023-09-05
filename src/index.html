@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-slate-900">
+    <div class="md:container md:mx-auto mt-20 text-slate-200">
+        <div class="top flex items-center justify-center">
+            <div class="top-wrapper flex flex-col items-center justify-center text-center">
+                <h1 class="font-sans text-2xl font-semibold">Rock, Paper, Scissors</h1>
+                <div class="score text-xl mt-10"></div>
+            </div>
+        </div>
+        <div class="middle flex items-center justify-center mt-10">
+            <div class="middle-wrapper">
+                <h1 class="text-2xl text-center">Choose your move</h1>
+                <h2 class="text-xl text-center mt-10">Moves left: <span class="movecount"></span></h2>
+                <h2 class="text-xl text-center mt-10"><span class="result"></span></h2>
+                <div class="game flex items-center justify-center gap-10 mt-20">
+                    <div
+                        class="rock w-30 h-30 bg-slate-800 rounded-full flex items-center justify-center cursor-pointer">
+                        <img class="w-20 h-30 max-w-full p-4" src="./images/rock.png" alt="">
+                    </div>
+                    <div
+                        class="paper w-30 h-30 bg-slate-800 rounded-full flex items-center justify-center cursor-pointer">
+                        <img class="w-20 h-30 max-w-full p-4" src="./images/paper.png" alt="">
+                    </div>
+                    <div
+                        class="scissors w-30 h-30 bg-slate-800 rounded-full flex items-center justify-center cursor-pointer">
+                        <img class="w-20 h-30 max-w-full p-4" src="./images/scissors.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
