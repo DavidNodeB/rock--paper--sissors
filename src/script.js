@@ -1,11 +1,10 @@
 const rock = document.querySelector(".rock"); 
 const paper = document.querySelector(".paper"); 
 const scissors = document.querySelector(".scissors"); 
+const player = [rock, paper, scissors]; 
 let score = document.querySelector(".score");
 const result = document.querySelector(".result");
 const choices = ["rock", "paper", "scissors"]; 
-let movesleft = 3;
-const player = [rock, paper, scissors]; 
 let computer = choices[Math.floor(Math.random() * choices.length)]; 
 
 
